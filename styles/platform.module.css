@@ -1,0 +1,99 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.select {
+  min-width: 300px;
+}
+
+.select :global(.ant-select-selector) {
+  padding-right: 35px;
+  border-color: #ff9800 !important;
+  border-width: 2px !important;
+  border-radius: 5px !important;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option_title {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.option_sub_title {
+  font-size: .95rem;
+}
+
+.vs {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #838383;
+}
+
+.logo {
+  border-radius: 5px;
+}
+
+.feature {
+  margin-bottom: 2rem;
+}
+
+.feature_header {
+  margin-bottom: 1.14rem;
+}
+
+.feature_title {
+  margin: 0;
+  line-height: 1;
+  font-size: 1.7rem;
+}
+
+.overview {
+  display: flex;
+  gap: 1.14rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.overview_item {
+  min-width: 220px;
+  padding: 0.75rem 1.14rem;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+}
+
+.overview_item_title {
+  font-weight: 500;
+  color: #858585;
+}
+
+.overview_item_content {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.volume,
+.tvl {
+  height: 400px;
+}
+
